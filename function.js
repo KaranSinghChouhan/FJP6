@@ -27,3 +27,15 @@ let num = function substraction(num1, num2) {
     return num1 - num2;
 }
 console.log("Substraction of numbers is: " + num(10, 6));
+
+//IIFE(Immediately invoked function expression)
+//IIFE without parameters
+(function () {
+    console.log("Hello from IIFE");
+})();
+
+//IIFE with parameters
+(function (num1, num2) {
+    console.log("By dividing the number we get: " + num1 / num2);
+})(10, 5);
+
