@@ -23,5 +23,5 @@ let baseName = path.basename(filePath);
 console.log(baseName);
 
 //Join
-let newFilePath = path.join(dirPath,"test.js");
+let newFilePath = path.join(dirPath,"testing.js");
 console.log(newFilePath);
