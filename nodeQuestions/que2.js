@@ -17,7 +17,7 @@ let ext = [".mp3", ".mp4", ".jpg", ".exe", ".pdf", ".app", ".txt"];
 for (let i = 0; i < arr.length; i++) {
     let folderName = arr[i];
     let folderPath = path.join(__dirname, "fileExplorer_q2", folderName);
-    if (!fs.existsSync(folderName))
+    if (!fs.existsSync(folderPath))
         fs.mkdirSync(folderPath);
 
     for (let j = 0; j < file.length; j++) {
