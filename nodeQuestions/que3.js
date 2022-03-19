@@ -11,7 +11,8 @@ let newFilePath = path.join("E:\\Study\\FJP6\\Module2","html");
 if(!fs.existsSync(newFilePath))
 fs.mkdirSync(newFilePath);
 
-let sourcePath = path.join("E:\\Study\\FJP6\\Module1","index.html");
+let sourcePath = path.join(__dirname,"..","..","Module1","index.html");
+console.log(sourcePath);
 let destinationPath = path.join("E:\\Study\\FJP6\\Module2\\html","index.html");
 fs.copyFileSync(sourcePath,destinationPath);
 
