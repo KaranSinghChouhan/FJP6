@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selector</title>
+
+    <style>
+        /* * = universal selector */
+        /* * {
+            background-color: lightblue;
+            color: brown;
+        } */
+        div {
+            background-color: pink;
+        }
+
+        /* CLASS SELECTOR */
+        .container {
+            background-color: lightblue;
+        }
+
+        .container2 {
+            font-size: x-small;
+        }
+
+        /* ID SELECTOR */
+        #one {
+            background-color: chartreuse;
+        }
+
+        /* grouping - by adding comma */
+        .one,
+        .two,
+        .three,
+        #one {
+            background-color: greenyellow;
+            color: crimson;
+            font-size: x-large;
+        }
+
+        /* Select tag with multiple classes - by writing class just after that without any space or comma */
+        .container.container2 {
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Heading 1</h1>
+    <p id="one">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo corporis officia, culpa voluptates
+        adipisci
+        similique natus perferendis molestiae distinctio nisi voluptatibus omnis aliquam expedita eaque magni animi
+        aperiam molestias recusandae!</p>
+    <div class="container">
+        <h1>Heading 2 inside div</h1>
+        <p>para inside div</p>
+    </div>
+    <div>
+        <h3>Heading 3 inside div</h3>
+    </div>
+    <h3>Heading 4</h3>
+    <a class="container" href="">Link to nothing</a>
+    <!-- classs name be used again -->
+    <h6>Heading 5</h6>
+    <p class="container2">class container 2 is applied on me</p>
+    <p class="container container2">I have both container classes</p>
+
+    <h1>Grouping</h1>
+
+    <a class="one" href="">Link2</a>
+    <h5 class="two">Heading 6</h5>
+    <p class="three">Paragraph</p>
+</body>
+
+</html>
