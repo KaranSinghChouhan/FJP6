@@ -1,6 +1,5 @@
 //"E:\2. Code\Pepcoding\FJP6\Module2\node\path.js"
 
-const { dirname } = require("path");
 let path = require("path");
 //console.log(path);
 
@@ -20,6 +19,6 @@ let dirPath = __dirname;
 console.log(dirPath);
 
 //joining file name in our file path
-let newFilePath = path.join(dirPath,"test.js");
+let newFilePath = path.join(dirPath, "testing.js");
 console.log(newFilePath);
 
