@@ -8,14 +8,19 @@ let arr1 = ["audio", "video", "image", "software", "documents", "applications", 
 let arr2 = ["abc", "def", "ghi", "ijk"];
 let arr3 = [".mp3", ".mp4", ".png", ".exe", ".docx", ".rar", ".msi"];
 
+let organizedPath = path.join(__dirname, "q2Folder");
+if (!fs.existsSync(organizedPath)) {
+    fs.mkdirSync(organizedPath);
+}
+
 for (let i = 0; i < arr1.length; i++) {
-    let folderName = arr1[i];
+    let folderName = path.join(organizedPath, arr1[i]);
     if (!fs.existsSync(folderName)) {
         fs.mkdirSync(folderName);
     }
     for (let j = 0; j < arr2.length; j++) {
         let fileName = arr2[j].concat(arr3[i]);
-        let filePath = path.join(__dirname, folderName, fileName);
+        let filePath = path.join(folderName, fileName);
         fs.writeFileSync(filePath, "");
     }
 }
