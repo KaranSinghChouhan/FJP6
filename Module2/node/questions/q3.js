@@ -3,10 +3,11 @@
 let fs = require("fs");
 let path = require("path");
 
-if (!fs.existsSync("html")) {
-    fs.mkdirSync("html");
+let htmlPath = path.join(__dirname,"..","..","html")
+if (!fs.existsSync(htmlPath)) {
+    fs.mkdirSync(htmlPath);
 }
 
-let sourcePath = "E:\2. Code\Pepcoding\FJP6\Module1\firstLecture\index.html";
-let destnationPath = "E:\2. Code\Pepcoding\FJP6\Module2\node\questions";
+let sourcePath = path.join(__dirname,"..","..","..","Module1","firstLecture","index.html");
+let destnationPath = path.join(__dirname,"..","..","html","index.html");
 fs.copyFileSync(sourcePath, destnationPath);
