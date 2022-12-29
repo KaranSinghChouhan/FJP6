@@ -1,6 +1,7 @@
 //Watch the output in terninal using var & let
 // "var" will give undefined & "lety" will give error, if we print it without defining;
 // in this first it saves the variables as undefined then allocates memory to them.
+//so it memory allocates first then execution happens
 
 
 // Code1
