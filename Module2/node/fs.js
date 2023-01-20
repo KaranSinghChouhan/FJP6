@@ -45,6 +45,6 @@ let path = require("path");
 
 //Copy a file
 //copying a file from node folder to module folder
-let sourcePath = path.join(__dirname,"file.txt");
-let destnationPath = path.join(__dirname,"module","file.txt");
-fs.copyFileSync(sourcePath,destnationPath);
+let sourcePath = path.join(__dirname, "file.txt");
+let destnationPath = path.join(__dirname, "module", "file.txt");
+fs.copyFileSync(sourcePath, destnationPath);

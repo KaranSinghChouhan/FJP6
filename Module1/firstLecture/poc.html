@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    input {
+        padding: 50px;
+        border: 2px solid red;
+        margin: 30px;
+        font-size: 20px;
+    }
+
+    .px {
+        font-size: 16px;
+        /* px - it is absolute size, do not depend on screen size */
+    }
+
+    .rem {
+        font-size: 2rem;
+        /* rem - relative to HTML default size which is 16px */
+    }
+
+    h1 {
+        font-size: 1em;
+        /* em - relative to parent */
+    }
+
+    /* vh - viewport height, default-100vh, like if we want to cover 80% of the height cover in something, then we can write 80vh */
+    /* vw - viewport width, same concept as vh, just in terms of width */
+    .vh-vw {
+        height: 40vh;
+        width: 40vw;
+        background-color: crimson;
+    }
+
+    /* % - percentage of it's parent */
+    .child {
+        height: 50%;
+        width: 50%;
+        background-color: cadetblue;
+    }
+
+    span {
+        border: 1px solid black;
+        /* it is inline element so height and width can not be set or we can say there will be no effect */
+    }
+
+    button {
+        display: inline-block;
+        height: 10vh;
+        width: 10vw;
+        /* in inline-block height and width can also be set unlike block simultaneously including inline properties */
+    }
+</style>
+
+<body>
+    <div class="px">px</div>
+    <div class="rem">rem</div>
+    <div>
+        <h1>Heading1</h1>
+    </div>
+    <div class="vh-vw">
+        <div class="child"></div>
+    </div>
+    <input type="text">
+    <button>Button</button>
+    <span>I am span</span>
+    <span>I am also span</span>
+</body>
+
+</html>
