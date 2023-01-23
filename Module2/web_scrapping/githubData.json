@@ -1,0 +1,182 @@
+[
+    {
+        "issueName": "Command line",
+        "issueLink": "https://github.com/jlevy/the-art-of-command-line/issues/825"
+    },
+    {
+        "issueName": "나ㅣ",
+        "issueLink": "https://github.com/jlevy/the-art-of-command-line/issues/823"
+    },
+    {
+        "issueName": "Share OpenVPN log file",
+        "issueLink": "https://github.com/jlevy/the-art-of-command-line/issues/809"
+    },
+    {
+        "issueName": "E tensorflow/tsl/lib/monitoring/collection_registry.cc:81] Cannot register 2 metrics with the same name: /tensorflow/core/bfc_allocator_delay",
+        "issueLink": "https://github.com/tensorflow/tensorflow/issues/59419"
+    },
+    {
+        "issueName": "Crash when running tensorflow.python.ops.nn_ops.convolution",
+        "issueLink": "https://github.com/tensorflow/tensorflow/issues/59417"
+    },
+    {
+        "issueName": "Segfault when running tensorflow.python.ops.gen_sparse_ops.sparse_concat",
+        "issueLink": "https://github.com/tensorflow/tensorflow/issues/59416"
+    },
+    {
+        "issueName": "add api to detect whether source-maps are enabled",
+        "issueLink": "https://github.com/nodejs/node/issues/46304"
+    },
+    {
+        "issueName": "options.defaultEncoding not validated in stream.Writable constructor",
+        "issueLink": "https://github.com/nodejs/node/issues/46301"
+    },
+    {
+        "issueName": "Impossible to build with vs2022",
+        "issueLink": "https://github.com/nodejs/node/issues/46300"
+    },
+    {
+        "issueName": "Make paris the default evm version",
+        "issueLink": "https://github.com/ethereum/solidity/issues/13882"
+    },
+    {
+        "issueName": "Unable to use try/catch to reliably catch errors",
+        "issueLink": "https://github.com/ethereum/solidity/issues/13869"
+    },
+    {
+        "issueName": "Fix b_ubu_cxx20 job",
+        "issueLink": "https://github.com/ethereum/solidity/issues/13868"
+    },
+    {
+        "issueName": "Training 2-3 models, suggestions?",
+        "issueLink": "https://github.com/CorentinJ/Real-Time-Voice-Cloning/issues/1157"
+    },
+    {
+        "issueName": "Quick question about the Synthesizer.",
+        "issueLink": "https://github.com/CorentinJ/Real-Time-Voice-Cloning/issues/1155"
+    },
+    {
+        "issueName": "        size mismatch for encoder.embedding.weight: copying a param with shape torch.Size([75, 512]) from checkpoint, the shape in current model is torch.Size([70, 512]).",
+        "issueLink": "https://github.com/CorentinJ/Real-Time-Voice-Cloning/issues/1139"
+    },
+    {
+        "issueName": "Found a possible security concern",
+        "issueLink": "https://github.com/keras-team/keras/issues/17459"
+    },
+    {
+        "issueName": "Memory leak when using tf.Model and tf.Model.fit() in a loop. clear_session() does not help",
+        "issueLink": "https://github.com/keras-team/keras/issues/17458"
+    },
+    {
+        "issueName": "Two RandomFlip layers with same seed do not return the same result",
+        "issueLink": "https://github.com/keras-team/keras/issues/17457"
+    },
+    {
+        "issueName": "TPU Usage",
+        "issueLink": "https://github.com/aymericdamien/TensorFlow-Examples/issues/410"
+    },
+    {
+        "issueName": "Ikvvh",
+        "issueLink": "https://github.com/aymericdamien/TensorFlow-Examples/issues/409"
+    },
+    {
+        "issueName": "Add a development container",
+        "issueLink": "https://github.com/aymericdamien/TensorFlow-Examples/issues/408"
+    },
+    {
+        "issueName": "Misleading simplification in the transation chapter",
+        "issueLink": "https://github.com/ethereumbook/ethereumbook/issues/1155"
+    },
+    {
+        "issueName": "Use alternative Swarm gateway",
+        "issueLink": "https://github.com/ethereumbook/ethereumbook/issues/1149"
+    },
+    {
+        "issueName": "web\n",
+        "issueLink": "https://github.com/ethereumbook/ethereumbook/issues/1148"
+    },
+    {
+        "issueName": "# github.com/ethereum/go-ethereum/crypto/secp256k1 cgo: C compiler \"gcc\" not found: exec: \"gcc\": executable file not found in %PATH%",
+        "issueLink": "https://github.com/ethereum/go-ethereum/issues/26533"
+    },
+    {
+        "issueName": "Issue with Bytes32 implementation",
+        "issueLink": "https://github.com/ethereum/go-ethereum/issues/26532"
+    },
+    {
+        "issueName": "Snapshot generation ETA increases",
+        "issueLink": "https://github.com/ethereum/go-ethereum/issues/26486"
+    },
+    {
+        "issueName": "[Whisper] ASR Pipeline with \"return_timestamps=True\" gives IndexError: index -1 is out of bounds for axis 0 with size 0",
+        "issueLink": "https://github.com/huggingface/transformers/issues/21262"
+    },
+    {
+        "issueName": "Unable to use GPU during wav2vec2 decoding ",
+        "issueLink": "https://github.com/huggingface/transformers/issues/21249"
+    },
+    {
+        "issueName": "add interface or integration to provide interpretability/explainability of hugging face models",
+        "issueLink": "https://github.com/huggingface/transformers/issues/21248"
+    },
+    {
+        "issueName": "Add support for editing the arguments that flutter passes to CMAKE",
+        "issueLink": "https://github.com/flutter/flutter/issues/119006"
+    },
+    {
+        "issueName": "Passing mutable data between isolates fails",
+        "issueLink": "https://github.com/flutter/flutter/issues/119001"
+    },
+    {
+        "issueName": "[examples] Fix typo in refresh_indicator example",
+        "issueLink": "https://github.com/flutter/flutter/issues/118999"
+    },
+    {
+        "issueName": "ERC721ConsecutiveEnumerable",
+        "issueLink": "https://github.com/OpenZeppelin/openzeppelin-contracts/issues/3985"
+    },
+    {
+        "issueName": "Implement EIP-5267 Retrieval of EIP-712 domain",
+        "issueLink": "https://github.com/OpenZeppelin/openzeppelin-contracts/issues/3968"
+    },
+    {
+        "issueName": "Enable setting and getting multiple bits in Bitmaps.sol",
+        "issueLink": "https://github.com/OpenZeppelin/openzeppelin-contracts/issues/3963"
+    },
+    {
+        "issueName": "ccxt - bitget change leverage -Error 404",
+        "issueLink": "https://github.com/ccxt/ccxt/issues/16591"
+    },
+    {
+        "issueName": "\\ccxt\\pro\\hitbtc3: hitbtc v3 implementation",
+        "issueLink": "https://github.com/ccxt/ccxt/issues/16581"
+    },
+    {
+        "issueName": "Gate editOrder error",
+        "issueLink": "https://github.com/ccxt/ccxt/issues/16579"
+    },
+    {
+        "issueName": "Thank you Atom Devs",
+        "issueLink": "https://github.com/atom/atom/issues/25755"
+    },
+    {
+        "issueName": "Thank you, Atom!",
+        "issueLink": "https://github.com/atom/atom/issues/25754"
+    },
+    {
+        "issueName": "HELP",
+        "issueLink": "https://github.com/atom/atom/issues/25750"
+    },
+    {
+        "issueName": "Add TempBox",
+        "issueLink": "https://github.com/jaywcjlove/awesome-mac/issues/1163"
+    },
+    {
+        "issueName": "一键收录和管理这些实用工具",
+        "issueLink": "https://github.com/jaywcjlove/awesome-mac/issues/1159"
+    },
+    {
+        "issueName": "Now we have become very big and different from the original idea. Here we collect awesome macOS software in various categories. Feel free to star and fork.",
+        "issueLink": "https://github.com/jaywcjlove/awesome-mac/issues/1151"
+    }
+]
