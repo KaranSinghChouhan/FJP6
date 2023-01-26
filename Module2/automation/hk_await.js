@@ -41,6 +41,7 @@ const code = require("./code");//getting input from code.js file
     for (let i = 0; i < questionsArr.length; i++) {
         await questionSolver(questionsArr[i], code.answers[i], page);
     }
+    await browser.close();
 })();
 
 async function waitAndClick(selector, page) {
@@ -62,5 +63,5 @@ async function questionSolver(question, answer, page) {
     await page.keyboard.press("A");
     await page.keyboard.press("V");
     await page.keyboard.up("Control");
-    await waitAndClick(".hr-monaco-submit.ui-btn-styled",page);
+    await waitAndClick(".hr-monaco-submit.ui-btn-styled", page);
 }
