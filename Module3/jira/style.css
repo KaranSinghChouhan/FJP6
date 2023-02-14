@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #F7F4F3;
+}
+
+.toolbox-cont {
+    background-color: #6B8F71;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    top: 0px;
+}
+
+.toolbox-priority-cont {
+    background-color: #D9FFF5;
+    height: 3rem;
+    width: 18rem;
+    margin-left: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+
+.action-btn-cont {
+    background-color: #D9FFF5;
+    height: 3rem;
+    width: 10rem;
+    margin-left: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+
+.color {
+    height: 1.5rem;
+    width: 3rem;
+    border-radius: 5px;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.green {
+    background-color: green;
+}
+
+.add-btn {
+    font-size: 1.5rem;
+}
+
+.remove-btn {
+    font-size: 1.5rem;
+}
+
+.modal-cont {
+    position: absolute;
+    top: 25vh;
+    left: 25vw;
+    background-color: #D9FFF5;
+    height: 50vh;
+    width: 50vw;
+    display: none;
+    /* we will change none to flex from script */
+    /* margin-left: 20rem;
+    margin-top: 7rem; */
+    border-radius: 20px;
+}
+
+.textarea-cont {
+    outline: none;
+    resize: none;
+    border: none;
+    background-color: #B9F5D8;
+    height: 100%;
+    width: 75%;
+    font-size: 2rem;
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+
+.priority-color-cont {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.priority-color {
+    height: 3rem;
+    width: 5rem;
+    border-radius: 5px;
+}
+
+.active{
+    border: 5px solid #62BEC1;
+}
+
+.main-cont {
+    margin-top: 7rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.ticket-cont {
+    background-color: #AAD2BA;
+    height: 9rem;
+    width: 16rem;
+    border-radius: 8px;
+}
+
+.ticket-color {
+    height: 1rem;
+    border-radius: 3px;
+}
+
+.ticket-id {
+    height: 1rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #628395;
+    margin-top: 0.2rem;
+    margin-left: 0.2rem;
+}
+
+.task-area {
+    height: 5.25rem;
+    padding: 5px;
+    font-size: 1.25rem;
+    overflow: auto;
+    outline: none;
+    word-break: break-all;
+}
+
+.lock-unlock{
+    font-size: 1.5rem;
+    margin-left: 14.5rem;
+}
