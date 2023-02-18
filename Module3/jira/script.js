@@ -13,13 +13,13 @@ var uid = new ShortUniqueId();
 
 let ticketArr = [];
 
-if(localStorage.getItem("tickets")){
+if (localStorage.getItem("tickets")) {
     let str = localStorage.getItem("tickets");
     let arr = JSON.parse(str);
     ticketArr = arr;
-    for(let i = 0; i < arr.length; i++){
+    for (let i = 0; i < arr.length; i++) {
         let ticketObj = arr[i];
-        createTicket(ticketObj.color,ticketObj.task,ticketObj.id);
+        createTicket(ticketObj.color, ticketObj.task, ticketObj.id);
     }
 }
 
@@ -125,7 +125,7 @@ function createTicket(ticketColor, task, ticketId) {
     let lockunlockButton = ticketCont.querySelector(".lock-unlock i");//directly picking icon from lock unlock class
     let ticketTaskArea = ticketCont.querySelector(".task-area");
     lockunlockButton.addEventListener("click", function () {
-        
+
         //Update UI
         if (lockunlockButton.classList.contains("fa-lock")) {
             lockunlockButton.classList.remove("fa-lock");
@@ -139,7 +139,7 @@ function createTicket(ticketColor, task, ticketId) {
 
         //if thwe task changes after making ticket, so change the array
         let ticketIndex = getTicketIndex(id);
-        ticketArr[ticketIndex].task =  ticketTaskArea.textContent;
+        ticketArr[ticketIndex].task = ticketTaskArea.textContent;
         updateLocalStorage();
     })
 
@@ -150,7 +150,7 @@ function createTicket(ticketColor, task, ticketId) {
             ticketCont.remove();
             //Delete from ticketArray
             let ticketIndex = getTicketIndex(id);
-            ticketArr.splice(ticketIndex,1);
+            ticketArr.splice(ticketIndex, 1);
             updateLocalStorage();
         }
     })
@@ -188,7 +188,7 @@ function createTicket(ticketColor, task, ticketId) {
     // console.log(ticketArr);
 }
 
-function getTicketIndex(id){
+function getTicketIndex(id) {
     for (let i = 0; i < ticketArr.length; i++) {
         if (ticketArr[i].id == id) {
             return i;
@@ -196,7 +196,7 @@ function getTicketIndex(id){
     }
 }
 
-function updateLocalStorage(){
+function updateLocalStorage() {
     let stringifyArr = JSON.stringify(ticketArr);
-    localStorage.setItem("tickets",stringifyArr);
+    localStorage.setItem("tickets", stringifyArr);
 }

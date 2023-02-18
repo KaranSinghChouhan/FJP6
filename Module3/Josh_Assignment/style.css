@@ -1,0 +1,69 @@
+body{
+    background-color: aqua;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-cont{
+    background-color: white;
+    height: 70vh;
+    width: 30vw;
+    /* justify-content: center;
+    align-items: center; */
+    margin-top: 20vh;
+    margin-left: 35vw;
+    border-radius: 15px;
+}
+
+.headDiv{
+    background-color: skyblue;
+    color: white;
+    font-size: large;
+    display: flex;
+    height: 10vh;
+    width: 30vw;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.headDiv-cont{
+    height: 10vh;
+    width: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.addTask-cont{
+    background-color: wheat;
+    margin-top: 27.5vh;
+    margin-left: 12.5vw;
+    height: 14vh;
+    width: 6.25vw;
+    border-radius: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
+
+.fa-plus{
+    color: skyblue;
+}
+
+.textarea-cont{
+    outline: none;
+    resize: none;
+    border: none;
+    background-color: lightgrey;
+    margin-top: 5vh;
+    height: 20vh;
+    width: 29.7vw;
+    text-align: center;
+    font-size: x-large;
+    font-weight: lighter;
+    border-top: 2px skyblue solid;
+    border-bottom: 2px skyblue solid;
+}
+
